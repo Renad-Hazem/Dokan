@@ -71,7 +71,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   transition: 0.3s ease;
   text-transform: capitalize;
@@ -96,9 +96,14 @@
   color: red;
 }
 
+.footerbox a,
 .footerbox li {
   margin: 1rem 0;
+  color: white;
+  text-decoration: none;
 }
+
+.footerbox a:hover,
 .footerbox li:hover {
   color: indianred;
   cursor: pointer;
@@ -108,4 +113,80 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+}
+/* about us */
+.firstSection {
+  height: 65vh;
+  background-image: url(media/about-us-page-heading.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.myh1 {
+  font-size: 3rem !important;
+}
+.about .icons {
+  transition: 0.9s ease;
+  color: white;
+}
+.about .icons:hover {
+  color: black !important;
+  background-color: rgb(244, 243, 243);
+  border: none;
+}
+.map {
+  border: 0.3rem solid white;
+  outline-color: whitesmoke;
+  outline-style: inset;
+  outline-width: 0.5rem;
+  outline-offset: 0.4rem;
+}
+.sectionone {
+  position: relative;
+  height: 65vh;
+  background-image: url(media/products-background.jpg);
+  background-size: cover;
+}
+.sectionone div {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.productcard {
+  width: 85%;
+  transition: 0.5s ease;
+}
+.productcard:hover {
+  cursor: pointer;
+  outline-color: #434b53;
+  outline-width: 0.5rem;
+  outline-offset: 0.4rem;
+  transform: scale(1.05);
+  background-color: #434b53;
+}
+.productcard:hover img {
+  border: #434b53 solid 0.3rem;
+  outline-color: #434b53;
+  outline-width: 0.5rem;
+  outline-offset: 0.4rem;
+}
+.productcard:hover .card-title {
+  color: white;
+}
+
+.login {
+  background-color: #f3f3f3;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.forgetpass {
+  transition: 0.2s ease !important;
+}
+.forgetpass:hover {
+  transform: scale(1.1) !important;
+  text-decoration: underline !important;
+  color: rgb(3, 3, 152) !important;
+  cursor: pointer;
+}
+.myinput {
+  border: 0.2rem solid white;
+  outline-color: whitesmoke;
+  outline-style: inset;
 }
