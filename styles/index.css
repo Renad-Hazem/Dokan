@@ -190,3 +190,7 @@
   outline-color: whitesmoke;
   outline-style: inset;
 }
+
+.textColor {
+  color: indianred;
+}
